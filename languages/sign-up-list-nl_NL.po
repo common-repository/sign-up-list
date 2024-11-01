@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-01-23 15:27+0100\n"
+"PO-Revision-Date: 2023-01-23 15:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: blocks\n"
+"X-Poedit-SearchPathExcluded-0: css\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: resources\n"
+"X-Poedit-SearchPathExcluded-3: public\n"
+"X-Poedit-SearchPathExcluded-4: blocks/node_modules\n"
+"X-Poedit-SearchPathExcluded-5: blocks/build\n"
+
+#: blocks/src/sul-entries/render.php:62 src/API.php:59
+msgid "There are no spaces left"
+msgstr "Er zijn geen plekken meer over"
+
+#: blocks/src/sul-entries/render.php:65 src/API.php:62
+msgid "Only"
+msgstr "Nog maar"
+
+#: blocks/src/sul-entries/render.php:65 src/API.php:62
+msgid "space left"
+msgstr "plek over"
+
+#: blocks/src/sul-entries/render.php:68 src/API.php:65
+msgid "spaces left"
+msgstr "plekken over"
+
+#: blocks/src/sul-sign-up/render.php:33 blocks/src/sul-sign-up/render.php:164
+msgid "Sorry, the list is full. It is no longer possible to sign up"
+msgstr "Sorry, de lijst is vol. Het is niet meer mogelijk om in te schrijven"
+
+#: blocks/src/sul-sign-up/render.php:42 blocks/src/sul-sign-up/render.php:98
+#: blocks/src/sul-sign-up/render.php:173 src/Admin.php:785
+#: src/EntriesListTable.php:29 src/Export.php:23 src/Privacy.php:52
+msgid "First name"
+msgstr "Voornaam"
+
+#: blocks/src/sul-sign-up/render.php:46 blocks/src/sul-sign-up/render.php:102
+#: blocks/src/sul-sign-up/render.php:177 src/EntriesListTable.php:30
+#: src/Export.php:24 src/Privacy.php:56
+msgid "Last name"
+msgstr "Achternaam"
+
+#: blocks/src/sul-sign-up/render.php:49 blocks/src/sul-sign-up/render.php:105
+#: blocks/src/sul-sign-up/render.php:180 src/EntriesListTable.php:31
+#: src/Export.php:25 src/InviteesListTable.php:30 src/Privacy.php:60
+#: src/Privacy.php:84
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: blocks/src/sul-sign-up/render.php:57
+msgid "Enter the characters in the image"
+msgstr "Typ de tekens uit de afbeelding"
+
+#: blocks/src/sul-sign-up/render.php:74 blocks/src/sul-sign-up/render.php:123
+#: blocks/src/sul-sign-up/render.php:199
+msgid "Sign up"
+msgstr "Inschrijven"
+
+#: blocks/src/sul-sign-up/render.php:81 blocks/src/sul-sign-up/render.php:129
+#: blocks/src/sul-sign-up/render.php:206
+msgid "You have been added to the list"
+msgstr "Je bent toegevoegd aan de lijst"
+
+#: blocks/src/sul-sign-up/render.php:89 src/API.php:203
+#, fuzzy
+#| msgid "Sorry, the list is full. It is no longer possible to sign up"
+msgid "Sorry, the list is full. It is no longer possible to sign up."
+msgstr "Sorry, de lijst is vol. Het is niet meer mogelijk om in te schrijven"
+
+#: blocks/src/sul-sign-up/render.php:146
+msgid ""
+"Invite people to sign up using the URL below (copy, paste and distribute)"
+msgstr ""
+"Nodig mensen uit om in te schrijven via onderstaande URL (kopieer, plak en "
+"verspreid)"
+
+#: blocks/src/sul-sign-up/render.php:213
+msgid "Sign-up form cannot be displayed. This list is by invitation only."
+msgstr ""
+"Het inschrijfformulier kan niet worden vertoond. Inschrijven kan alleen op "
+"uitnodiging."
+
+#: blocks/src/sul-sign-up/render.php:217
+msgid "Sign-up form cannot be displayed"
+msgstr "Inschrijfformulier kan niet worden vertoond"
+
+#: src/API.php:136
+msgid "The entered characters do not match with the image."
+msgstr "De ingevoerde tekens komen niet overeen met de afbeelding."
+
+#: src/API.php:142
+msgid "Please enter the characters in the image."
+msgstr "Typ de tekens zoals te zien in de afbeelding."
+
+#: src/API.php:152 src/API.php:160
+msgid "Sorry, you cannot sign up. The link is invalid."
+msgstr "Sorry, je kunt niet inschrijven. De link is ongeldig."
+
+#: src/API.php:170
+msgid "You are not on the invitation list"
+msgstr "Je staat niet op de lijst van genodigden"
+
+#: src/API.php:189
+msgid "Invalid nonce"
+msgstr "Ongeldige nonce"
+
+#: src/API.php:194
+msgid "Nonce missing"
+msgstr "Nonce mist"
+
+#: src/API.php:225
+msgid "Database error when adding new entry"
+msgstr "Databasefout bij het toevoegen van een inschrijving"
+
+#: src/Admin.php:255 src/Admin.php:516
+msgid "Invalid action"
+msgstr "Ongeldige actie"
+
+#: src/Admin.php:580
+msgid "Sign-up List - General Settings"
+msgstr "Inschrijflijst - Algemene Instellingen"
+
+#: src/Admin.php:585
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: src/Admin.php:613
+msgid "List"
+msgstr "Lijst"
+
+#: src/Admin.php:619
+msgid "List name"
+msgstr "Lijstnaam"
+
+#: src/Admin.php:626
+msgid "Maximum entries"
+msgstr "Aantal plekken"
+
+#: src/Admin.php:633
+msgid "Duplicates allowed"
+msgstr "Dubbele inschrijvingen toegestaan"
+
+#: src/Admin.php:640
+msgid "Who can sign up"
+msgstr "Wie kunnen inschrijven"
+
+#: src/Admin.php:647
+msgid "Label for extra info field (empty = hidden)"
+msgstr "Naam van invoerveld voor extra informatie (leeg = veld onzichtbaar)"
+
+#: src/Admin.php:654
+msgid "List entries public?"
+msgstr "Inschrijvingen openbaar?"
+
+#: src/Admin.php:661
+msgid "Style"
+msgstr "Vormgeving"
+
+#: src/Admin.php:672
+msgid "Change the settings of the sign-up list here"
+msgstr "Wijzig hier de instellingen van de inschrijflijst"
+
+#: src/Admin.php:712
+msgid "No, unique email addresses only"
+msgstr "Nee, alleen unieke e-mailadressen"
+
+#: src/Admin.php:713
+msgid "Yes, duplicate email adressess allowed"
+msgstr "Ja, dubbele e-mailadressen zijn toegestaan"
+
+#: src/Admin.php:751
+msgid "Anyone (with CAPTCHA)"
+msgstr "Iedereen (met CAPTCHA)"
+
+#: src/Admin.php:752
+msgid "Only invitees (see Invitees)"
+msgstr "Alleen genodigden"
+
+#: src/Admin.php:753
+msgid "Anyone with the special link"
+msgstr "Iedereen met de speciale link"
+
+#: src/Admin.php:786
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: src/Admin.php:787
+msgid "First name + extra info"
+msgstr "Voornaam + extra info"
+
+#: src/Admin.php:788
+msgid "Full name + extra info"
+msgstr "Volledige naam + extra info"
+
+#: src/Admin.php:789
+msgid "Nothing visible"
+msgstr "Niets zichtbaar"
+
+#: src/Admin.php:793
+msgid "Mary"
+msgstr "Marieke"
+
+#: src/Admin.php:794
+msgid "Mary Smith"
+msgstr "Marieke Smit"
+
+#: src/Admin.php:795
+msgid "Mary (some extra information)"
+msgstr "Marieke (extra informatie)"
+
+#: src/Admin.php:796
+msgid "Mary Smith (some extra information)"
+msgstr "Marieke Smit (extra informatie)"
+
+#: src/Admin.php:815
+msgid "Numbers, borders and dotted lines"
+msgstr "Genummerd, kader en stippellijnen"
+
+#: src/Admin.php:816
+msgid "Minimal style, let your theme decide the looks"
+msgstr "Minimale vormgeving, de stijl van de website bepaalt het uiterlijk"
+
+#: src/AdminViewAddEntry.php:29
+msgid "Add entry"
+msgstr "Voeg inschrijving toe"
+
+#: src/AdminViewAddEntry.php:35 src/AdminViewDeleteEntry.php:36
+#: src/AdminViewEditEntry.php:36
+msgid "First Name"
+msgstr "Voornaam"
+
+#: src/AdminViewAddEntry.php:39 src/AdminViewDeleteEntry.php:41
+#: src/AdminViewEditEntry.php:41
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: src/AdminViewAddEntry.php:44 src/AdminViewAddInvitee.php:33
+#: src/AdminViewDeleteEntry.php:46 src/AdminViewDeleteInvitee.php:35
+#: src/AdminViewEditEntry.php:46 src/AdminViewEditInvitee.php:35
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: src/AdminViewAddEntry.php:59 src/AdminViewEditEntry.php:61
+msgid "Save entry"
+msgstr "Inschrijving opslaan"
+
+#: src/AdminViewAddEntry.php:60 src/AdminViewAddInvitee.php:40
+#: src/AdminViewBulkAddInvitees.php:45 src/AdminViewBulkDeleteEntries.php:22
+#: src/AdminViewBulkDeleteInvitees.php:22 src/AdminViewDeleteEntry.php:62
+#: src/AdminViewDeleteInvitee.php:42 src/AdminViewEditEntry.php:62
+#: src/AdminViewEditInvitee.php:42 src/AdminViewResetList.php:43
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/AdminViewAddInvitee.php:27 src/AdminViewBulkAddInvitees.php:27
+msgid "Add invitee"
+msgstr "Genodigde toevoegen"
+
+#: src/AdminViewAddInvitee.php:39 src/AdminViewEditInvitee.php:41
+msgid "Save invitee"
+msgstr "Genodigde opslaan"
+
+#: src/AdminViewBulkAddInvitees.php:33
+msgid "Enter or paste one email address per line"
+msgstr "Typ of plak één e-mailadres per regel"
+
+#: src/AdminViewBulkAddInvitees.php:44
+msgid "Save invitees"
+msgstr "Genodigden opslaan"
+
+#: src/AdminViewBulkDeleteEntries.php:12
+msgid "Delete selected entries"
+msgstr "Verwijder geselecteerde inschrijvingen"
+
+#: src/AdminViewBulkDeleteEntries.php:13
+msgid "Please confirm deletion of selected entries"
+msgstr "Bevestig de verwijdering van geselecteerde inschrijvingen"
+
+#: src/AdminViewBulkDeleteEntries.php:21
+msgid "Delete entries"
+msgstr "Verwijder inschrijvingen"
+
+#: src/AdminViewBulkDeleteInvitees.php:12
+msgid "Delete selected invitees"
+msgstr "Verwijder geselecteerde genodigden"
+
+#: src/AdminViewBulkDeleteInvitees.php:13
+msgid "Please confirm deletion of selected invitees"
+msgstr "Bevestig de verwijdering van geselecteerde genodigden"
+
+#: src/AdminViewBulkDeleteInvitees.php:21
+msgid "Delete invitees"
+msgstr "Verwijder genodigden"
+
+#: src/AdminViewDeleteEntry.php:29 src/AdminViewDeleteEntry.php:61
+msgid "Delete entry"
+msgstr "Verwijder inschrijving"
+
+#: src/AdminViewDeleteEntry.php:30
+msgid "Please confirm deletion of the following entry"
+msgstr "Bevestig de verwijdering van de volgende inschrijving"
+
+#: src/AdminViewDeleteInvitee.php:28 src/AdminViewDeleteInvitee.php:41
+msgid "Delete invitee"
+msgstr "Verwijder genodigde"
+
+#: src/AdminViewDeleteInvitee.php:29
+msgid "Please confirm deletion of the following invitee"
+msgstr "Bevestig de verwijdering van de volgende genodigde"
+
+#: src/AdminViewEditEntry.php:30
+msgid "Edit entry"
+msgstr "Wijzig inschrijving"
+
+#: src/AdminViewEditInvitee.php:28
+msgid "Edit invitee"
+msgstr "Wijzig genodigde"
+
+#: src/AdminViewListEntries.php:14
+msgid "Add new entry"
+msgstr "Inschrijving toevoegen"
+
+#: src/AdminViewListEntries.php:16
+msgid "Export to CSV"
+msgstr "Export naar CSV"
+
+#: src/AdminViewListEntries.php:18
+msgid "Reset"
+msgstr "Reset"
+
+#: src/AdminViewListEntries.php:24 src/AdminViewListInvitees.php:22
+msgid "Search"
+msgstr "Zoek"
+
+#: src/AdminViewListInvitees.php:14
+msgid "Add one invitee"
+msgstr "Eén genodigde toevoegen"
+
+#: src/AdminViewListInvitees.php:16
+msgid "Add multiple invitees"
+msgstr "Meerdere genodigden toevoegen"
+
+#: src/AdminViewResetList.php:27 src/AdminViewResetList.php:42
+msgid "Reset list"
+msgstr "Reset lijst"
+
+#: src/AdminViewResetList.php:28
+msgid "Reset the list to start from scratch. This action cannot be undone."
+msgstr ""
+"Reset de lijst om opnieuw te beginnen. Deze actie kan niet ongedaan worden "
+"gemaakt."
+
+#: src/AdminViewResetList.php:33
+msgid "Delete all entries"
+msgstr "Verwijder alle inschrijvingen"
+
+#: src/AdminViewResetList.php:37
+msgid "Reset special invitation link"
+msgstr "Reset speciale uitnodigingslink"
+
+#: src/Database.php:238
+msgid "First name missing"
+msgstr "Voornaam mist"
+
+#: src/Database.php:239
+msgid "First name too long"
+msgstr "Voornaam te lang"
+
+#: src/Database.php:242
+msgid "Last name missing"
+msgstr "Achternaam mist"
+
+#: src/Database.php:243
+msgid "Last name too long"
+msgstr "Achternaam te lang"
+
+#: src/Database.php:246
+msgid "Invalid email address"
+msgstr "Ongeldig e-mailadres"
+
+#: src/Database.php:251
+msgid " too long"
+msgstr " te lang"
+
+#: src/Database.php:258 src/Database.php:416
+msgid "Invalid record id"
+msgstr "Ongeldig record id"
+
+#: src/Database.php:264
+msgid "Email address is already on the list"
+msgstr "Het e-mailadres staat al op de lijst"
+
+#: src/EntriesListTable.php:36
+msgid "Timestamp"
+msgstr "Datum/tijd"
+
+#: src/EntriesListTable.php:184 src/InviteesListTable.php:170
+msgid "Edit"
+msgstr "Wijzig"
+
+#: src/EntriesListTable.php:186 src/EntriesListTable.php:240
+#: src/InviteesListTable.php:172 src/InviteesListTable.php:198
+msgid "Delete"
+msgstr "Verwijder"
+
+#: src/Export.php:26
+msgid "Extra info"
+msgstr "Extra info"
+
+#: src/Export.php:27
+msgid "Date and time"
+msgstr "Datum en tijd"
+
+#: src/Menu.php:23 src/Privacy.php:111 src/Privacy.php:168
+msgid "Sign-up List"
+msgstr "Inschrijflijst"
+
+#: src/Menu.php:27 src/Menu.php:28
+msgid "Invitees"
+msgstr "Genodigden"
+
+#: src/Menu.php:31 src/Menu.php:32
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: src/Privacy.php:26 src/Privacy.php:27
+msgid "Personal data processed by Sign-up List"
+msgstr "Persoonsgegevens die worden verwerkt door Sign-up List"
+
+#: src/Privacy.php:28
+msgid ""
+"This web site uses the plug-in Sign-up List. When you sign up to this list "
+"as a visitor, your first name, last name and email address are stored in a "
+"database for as long as the list is active. Your data may be manually "
+"deleted by the administrator. Next to that, your email adress may be added "
+"by the administrator to a list of allowed persons to sign up. When the "
+"plugin is removed from this web site, all related data will be deleted "
+"including your personal data. If you request your data to be manually "
+"removed, please contact the administrator of this web site."
+msgstr ""
+"Deze website gebruikt de plug-in Sign-up List. Wanneer je je inschrijft op "
+"deze lijst als website-bezoeker, worden jouw voornaam, achternaam en e-"
+"mailadres opgeslagen in een database zolang als de lijst actief is. Jouw "
+"gegevens kunnen met de hand worden verwijderd door de beheerder. Daarnaast "
+"kan jouw e-mailadres zijn toegevoegd aan een lijst van personen die mogen "
+"inschrijven. Als de plugin wordt verwijderd van deze website, dan worden "
+"alle gegevens verwijderd, inclusief jouw persoonsgegevens. Voor een "
+"handmatige verwijdering van jouw gegevens moet je contact opnemen met de "
+"beheerder van deze website."
+
+#: src/Privacy.php:45
+msgid "Sign-up List records"
+msgstr "Inschrijflijst records"
+
+#: src/Privacy.php:48 src/Privacy.php:80
+msgid "Record ID"
+msgstr "Record ID"
+
+#: src/Privacy.php:77
+msgid "Sign-up List Invitation records"
+msgstr "Inschrijflijst genodigden records"
+
+#~ msgid "How to sign up"
+#~ msgstr "Hoe kun je inschrijven"
+
+#~ msgid "Only recognized email adressess can sign-up"
+#~ msgstr "Inschrijven kan alleen voor bepaalde e-mailadressen"
+
+#~ msgid "Persons"
+#~ msgstr "Personen"

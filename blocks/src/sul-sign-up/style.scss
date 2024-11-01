@@ -1,0 +1,72 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-sign-up-list-sul-sign-up.min-style, .sul-sign-up-wrapper.min-style {
+	label {
+		display: block;
+	}
+
+	input {
+		display: block;
+		padding: 5px;
+		margin-bottom: 10px;
+	}
+
+	#success_msg {
+		display: none;
+	}
+
+	#error_msg {
+		display: none;
+	}
+
+	.sul-inline {
+		display: inline-block;
+	}
+}
+
+.wp-block-sign-up-list-sul-sign-up.sul-style-1, .sul-sign-up-wrapper.sul-style-1 {
+	border: 1px solid;
+	
+	form {
+		padding: 10px 10px 10px 20px;
+		width: 100%;
+	}
+	#error_msg, #success_msg, #list_full_msg  {
+		padding-left: 20px;
+	}
+
+	#invitation_msg, #list_full_msg {
+		padding: 20px;
+	}
+
+	label {
+		display: block;
+	}
+
+	input {
+		display: block;
+		padding: 10px;
+		margin: 0px 10px 10px 0;
+		border: solid 1px gray;
+	}
+	
+	input[type=submit] {
+		padding: 10px 20px 10px 20px;
+	}
+	#success_msg {
+		display: none;
+	}
+
+	#error_msg {
+		display: none;
+	}
+
+	.sul-inline {
+		display: inline-block;
+	}
+}

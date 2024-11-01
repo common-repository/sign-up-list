@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "sign-up-list/sul-entries",
+  "version": "0.1.0",
+  "title": "Sign-up List Entries",
+  "category": "widgets",
+  "icon": "editor-table",
+  "description": "Sign-up lists with current entries",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "sign-up-list",
+  "editorScript": "file:../../build/sul-entries.js",
+  "editorStyle": "file:../../build/sul-entries.css",
+  "style": "file:../../build/style-sul-entries.css"
+}

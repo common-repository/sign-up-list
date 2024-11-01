@@ -1,0 +1,95 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-sign-up-list-sul-entries.min-style, #sul-entries.min-style {
+	padding: 5px;
+
+	table {
+		width: 100%;
+		padding: 2px 0 2px 0;
+	}
+
+	th {
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	td {
+		text-align: left;
+		vertical-align: middle;
+		word-break: break-all;
+	}
+	
+}
+
+.wp-block-sign-up-list-sul-entries.sul-style-1, .sul-entries-wrapper.sul-style-1 {
+	
+	table {
+		margin: 0 0 12px 0;
+		border: 1px solid; 
+		padding: 10px;
+		counter-reset: rowNumber;
+	}
+
+	th {
+		text-align: left;
+		vertical-align: middle;
+		background-color: #f2f2f2;
+	}
+
+	#sul-meta td {
+		text-align: left;
+		vertical-align: middle;
+		padding-left: 30px;
+		background-color: lightgray;
+		border-radius: 10px;
+		width: 50%;
+	}
+
+	#sul-entries td {
+		text-align: left;
+		vertical-align: middle;
+		border-bottom: dashed 1px grey;
+		word-break: break-all;
+		width: 100%;
+	}
+	
+	#sul-entries tbody tr::before {
+		display: table-cell;
+		counter-increment: rowNumber;
+		content: counter(rowNumber) ".";
+		padding-right: 2px;
+		text-align: right;
+		border-bottom: dashed 1px grey;
+	}
+	#sul-entries tfoot td {
+		font-style: italic;
+		text-align: right;
+		padding: 0 10px 0 0;
+	}
+
+	#sul-entries thead td {
+		font-weight: bold;
+	}
+
+	#sul-entries tfoot tr::before {
+		display: table-cell;
+		content: " ";
+		padding-right: 2px;
+		text-align: right;
+		border-bottom: dashed 1px grey;	
+	}
+
+	#sul-entries thead tr::before {
+		display: table-cell;
+		content: " ";
+		padding-right: 2px;
+		text-align: right;
+		border-bottom: dashed 1px grey;	
+	}
+
+}
